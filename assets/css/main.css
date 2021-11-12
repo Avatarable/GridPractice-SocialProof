@@ -79,6 +79,15 @@ body{
     color: var(--white);
     padding: 32px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.box:hover{
+    /* background-color: rgb(61, 24, 61); */
+    transform: scale(1.2,1.2);
+    box-shadow: 1px 3px 56px 1px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 1px 3px 56px 1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px 3px 56px 1px rgba(0,0,0,0.65);
 }
 
 .info{
@@ -111,7 +120,7 @@ body{
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    z-index: -1;
 }
 
 .underlay1{
